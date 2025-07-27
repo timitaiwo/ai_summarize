@@ -1,0 +1,14 @@
+.env
+.coverage
+.hypothesis
+.pytest_cache
+.venv
+.vscode
+htmlcov
+__pycache__
+
+
+# Ignore document files
+
+*document*.docx
+Report.docx
