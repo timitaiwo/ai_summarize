@@ -2,7 +2,11 @@ import httpx
 import re
 from bs4 import BeautifulSoup
 
+from .utils import time_sleep
 
+
+#TODO: time_sleep as a decorator
+# @time_sleep
 def extract_valid_essay_urls(start_url: str, client: httpx.Client) -> set[str]:
     """
     Extract valid URLs from the start url link as a set of strings.

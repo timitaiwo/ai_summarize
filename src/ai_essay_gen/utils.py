@@ -18,6 +18,11 @@ class AIRequestError(Exception):
     pass
 
 
+def time_sleep():
+    """
+    """
+    pass
+
 def create_logger(name: str):
     """ """
     # Configure logging
